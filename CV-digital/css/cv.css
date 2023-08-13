@@ -1,0 +1,47 @@
+#foto {
+    width: 200px; 
+
+}
+
+.container {
+    width: 80%;
+    overflow: hidden; /* Para limpiar el float */
+    margin: auto;
+}
+
+.iconos {
+    width: 40px; 
+    margin-right: 10px;
+}
+
+#datosContacto{
+    text-align: justify;
+    width: 50%;
+    float: left;
+}
+
+#barraLateral{
+    text-align: justify;
+    width: 50%;
+    float: left;
+    background-color: lightgrey;
+    margin-top: 50px;
+}
+
+#barraInterior{
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: beige;
+    width: 50%;
+    margin: auto;
+}
+
+#contFoto{
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+}

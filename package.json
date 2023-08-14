@@ -1,0 +1,22 @@
+{
+  "name": "jcolliapublic",
+  "version": "1.0.0",
+  "description": "CV digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcolliaan/jcolliaPublic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcolliaan/jcolliaPublic/issues"
+  },
+  "homepage": "https://github.com/jcolliaan/jcolliaPublic#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

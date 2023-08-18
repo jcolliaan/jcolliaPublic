@@ -5,6 +5,7 @@
 
 ul{
     list-style-type: none;
+    line-height: 1.5;
 }
 
 .container {
@@ -28,7 +29,7 @@ ul{
     text-align: justify;
     width: 50%;
     float: left;
-    background-color: lightgrey;
+    background-color: rgb(224, 223, 223);
     margin-top: 50px;
 }
 
@@ -38,8 +39,8 @@ ul{
 }
 
 footer{
-    background-color: beige;
-    width: 50%;
+    background-color: rgb(224, 223, 223);
+    width: 70%;
     margin: auto;
 }
 

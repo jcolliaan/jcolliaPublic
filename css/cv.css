@@ -3,6 +3,10 @@
 
 }
 
+ul{
+    list-style-type: none;
+}
+
 .container {
     width: 80%;
     overflow: hidden; /* Para limpiar el float */

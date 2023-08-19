@@ -1,28 +1,38 @@
-#foto {
-    width: 200px; 
-
-}
-
+/* lista de cotacto */
 ul{
     list-style-type: none;
     line-height: 1.5;
-}
-
-.container {
-    width: 80%;
-    overflow: hidden; /* Para limpiar el float */
-    margin: auto;
-}
-
-.iconos {
-    width: 40px; 
-    margin-right: 10px;
 }
 
 #datosContacto{
     text-align: justify;
     width: 50%;
     float: left;
+}
+
+
+/* foto */
+#foto {
+    width: 200px; 
+}
+
+#contFoto{
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+/* body */
+
+a{
+    color: black;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden; /* Para limpiar el float */
+    margin: auto;
 }
 
 #barraLateral{
@@ -38,15 +48,16 @@ ul{
     margin: auto;
 }
 
+
+/* footer */
+
 footer{
     background-color: rgb(224, 223, 223);
     width: 70%;
     margin: auto;
 }
 
-#contFoto{
-    border: 1px solid white;
-    padding: 10px;
-    display: inline-block;
-    background-color: white;
+.iconos {
+    width: 40px; 
+    margin-right: 10px;
 }

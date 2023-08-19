@@ -1,5 +1,5 @@
 /* lista de cotacto */
-ul{
+#lista-contacto{
     list-style-type: none;
     line-height: 1.5;
 }
@@ -16,11 +16,17 @@ ul{
     width: 200px; 
 }
 
-#contFoto{
+#marco-foto{
     border: 1px solid white;
     padding: 10px;
     display: inline-block;
     background-color: white;
+    border-radius: 5px;
+}
+
+#cont-foto{
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* body */
@@ -37,14 +43,15 @@ a{
 
 #barraLateral{
     text-align: justify;
-    width: 50%;
+    width: 40%;
     float: left;
     background-color: rgb(224, 223, 223);
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 #barraInterior{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -53,11 +60,28 @@ a{
 
 footer{
     background-color: rgb(224, 223, 223);
-    width: 70%;
+    width: 80%;
     margin: auto;
+    text-align: center;
 }
 
 .iconos {
-    width: 40px; 
-    margin-right: 10px;
+    width: 75px; 
+    margin: 0 15px;
+}
+
+#competencias{
+    padding-top: 0.1em;
+}
+
+#iconos-lenguajes{
+    background-color: blueviolet;
+    width: auto;
+}
+
+#lista-iconos{
+    list-style-type: none;
+    display: flex; /* Utiliza flexbox para colocar los elementos en línea */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin-bottom: 2px;
 }

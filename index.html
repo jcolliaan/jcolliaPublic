@@ -13,7 +13,7 @@
     <div class="container">
         <div id="datosContacto">     
             <h1>Jorge Collía Ancares</h1>
-            <ul>             
+            <ul id="lista-contacto">             
                 <li><i class="bi bi-pin-map-fill"></i> Oviedo</li>
                 <li><i class="bi bi-envelope"></i> jorgecollia91@gmail.com</li>
                 <li><i class="bi bi-telephone-fill"></i> 678 859 974</li> 
@@ -31,22 +31,22 @@
             </a>
 
             <h3>EXPERIENCIA LABORAL</h3>
-            <h3>Hiberus| SFCC Developer</h3>
+            <h3>Hiberus| SFCC Developer <i class="bi bi-info-circle"></i></h3>
             <p>Octubre 2022 - Abril 2023</p>
             <p>Creación de desarrollos para ÓpticaUniversitaria</p>
             <p>Configuración BM</p>
-            <h3>Capgemini | SFCC Developer</h3>
+            <h3>Capgemini | SFCC Developer <i class="bi bi-info-circle"></i></h3>
             <p>Enero 2021 - Octubre 2022</p>
             <p>Creación de desarrollos fullstack para Tienda Animal y Loreal</p>
             <p>Configuración BM</p>
             <p>UATs y mantenimiento en Mascotas Latinas</p>
             <p>Soporte al cliente en BM para Ahorramás</p>
-            <h3>Capgemini | Java Developer</h3>
+            <h3>Capgemini | Java Developer <i class="bi bi-info-circle"></i></h3>
             <p>Julio 2020 - Enero 2021</p>
             <p>Desarrollo de nuevas funcionalidades para el Ministerio de Sanidad</p>
             <p>Mantenimiento y corrección de bugs</p>
             <p>Consulta de bases de datos SQL</p>
-            <h3>Ayto. de Oviedo | Frontend Developer</h3>
+            <h3>Ayto. de Oviedo | Frontend Developer <i class="bi bi-info-circle"></i></h3>
             <p>Diciembre 2016 - Diciembre 2017</p>
             <p>Maquetación y desarrollo de páginas web</p>
             <p>Creación de recursos gráficos</p>
@@ -54,9 +54,13 @@
 
         <div id="barraLateral">
             <div id="barraInterior">
-                <div id="contFoto">
-                    <img src="imagenes/foto.jpg" id="foto"/>
+
+                <div id="cont-foto">
+                    <div id="marco-foto">
+                        <img src="imagenes/foto.jpg" id="foto"/>
+                    </div>
                 </div>
+
                 <h3>SFCC DEVELOPER</h3>
                 <p>Profesional con 4 años de experiencia en
                     Salesforce Commerce Cloud, destacándome
@@ -88,16 +92,47 @@
     </div>
 
     <footer>
-        <h3>COMPETENCIAS</h3>
-        <img src="imagenes/salesforce commerce cloud logo.png" class="iconos"/>
-        <img src="imagenes/1366_2000.png" class="iconos"/>
-        <img src="imagenes/html5.webp" class="iconos"/>
-        <img src="imagenes/CSS3_logo.svg.png" class="iconos"/>
-        <img src="imagenes/Node-js-Logo.png" class="iconos"/>
-        <img src="imagenes/687474703a2f2f707265636973696f6e2d736f6674776172652e636f6d2f77702d636f6e74656e742f75706c6f6164732f32.gif" class="iconos"/>
-        <img src="imagenes/React.svg.png" class="iconos"/>
-        <img src="imagenes/Bootstrap_logo.svg.png" class="iconos"/>
-        <small>Actualizado en Agosto de 2023</small>
+        <div id="competencias">
+            <h3>COMPETENCIAS</h3>
+        </div>
+        
+        <div id="iconos-lenguajes">
+            <ul id="lista-iconos"> 
+            <li id="sfcc">
+                <img src="imagenes/salesforce.png" class="iconos"/>
+                <p>Salesforce Commerce Cloud</p>
+            </li>
+            <li>
+                <img src="imagenes/js.png" class="iconos"/>
+                <p>JavaScript</p>
+            </li>
+            <li>
+                <img src="imagenes/html5.png" class="iconos"/>
+                <p>HTML 5</p>
+            </li>
+            <li>
+                <img src="imagenes/css.png" class="iconos"/>
+                <p>CSS 3</p>
+            </li>
+            <li>
+                <img src="imagenes/Node.png" class="iconos"/>
+                <p>Node.js</p>
+            </li>
+            <li>
+                <img src="imagenes/jquery.png" class="iconos"/>
+                <p>jQuery</p>
+            </li>
+            <li>
+                <img src="imagenes/React.png" class="iconos" style="width: 60px;"/>
+                <p>React</p>
+            </li>
+            <li>
+                <img src="imagenes/bootstrap.png" class="iconos"/>
+                <p>Bootstrap</p>
+            </li>
+            </ul>
+        </div>
+        <p><small>Actualizado en Agosto de 2023</small></p>
     </footer>
     
     <script src="js/cv.js"></script>

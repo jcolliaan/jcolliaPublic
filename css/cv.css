@@ -75,7 +75,6 @@ footer{
 }
 
 #iconos-lenguajes{
-    background-color: blueviolet;
     width: auto;
 }
 
@@ -85,3 +84,25 @@ footer{
     padding: 0; /* Elimina el relleno predeterminado de la lista */
     margin-bottom: 2px;
 }
+
+
+/* Media query para dispositivos con ancho menor a 768px */
+@media (max-width: 768px) {
+
+    #datosContacto{
+        float: none;
+        width: 100%;
+    }
+
+    #barraLateral{
+        float: none;
+        width: 100%;
+    }
+
+    #lista-iconos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+  

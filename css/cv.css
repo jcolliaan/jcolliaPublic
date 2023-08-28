@@ -7,7 +7,7 @@
 #datosContacto{
     text-align: justify;
     width: 50%;
-    float: left;
+    background-color: azure;
 }
 
 
@@ -39,14 +39,14 @@ a{
     width: 80%;
     overflow: hidden; /* Para limpiar el float */
     margin: auto;
+    background-color: beige;
 }
 
 #barraLateral{
     text-align: justify;
-    width: 40%;
-    float: left;
+    width: 45%;
+    float: right;
     background-color: rgb(224, 223, 223);
-    margin-top: 50px;
     border-radius: 5px;
 }
 
@@ -55,6 +55,25 @@ a{
     margin: auto;
 }
 
+#experiencia-laboral{
+    margin-top: 20px;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+/* desplegables */
+
+#hiberus-descripcion{
+    display: none;
+}
+
+#capgemini-SFCC-descripcion{
+    display: none;
+}
+
+#capgemini-java-descripcion{
+    display: none;
+}
 
 /* footer */
 
@@ -85,6 +104,19 @@ footer{
     margin-bottom: 2px;
 }
 
+.icon-list {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para cada elemento de la lista */
+.icon-list li {
+    text-align: center; /* Alinear el contenido del li al centro */
+    margin: 10px; /* Espacio entre los íconos */
+}
 
 /* Media query para dispositivos con ancho menor a 768px */
 @media (max-width: 768px) {

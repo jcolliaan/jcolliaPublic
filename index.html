@@ -5,52 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Jorge Collía Ancares</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/cv.css">
     <link rel="icon" type="image/png" href="imagenes/iconos/cv_icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="container">
-        <div id="datosContacto">     
-            <h1>Jorge Collía Ancares</h1>
-            <ul id="lista-contacto">             
-                <li><i class="bi bi-pin-map-fill"></i> Oviedo</li>
-                <li><i class="bi bi-envelope"></i> jorgecollia91@gmail.com</li>
-                <li><i class="bi bi-telephone-fill"></i> 678 859 974</li> 
-                <li><i class="bi bi-car-front-fill"></i> Carnet de conducir y vehículo propio</li>
-                <a href="https://www.linkedin.com/in/jorge-coll%C3%ADa-ancares-8771501a2/">
-                    <li><i class="bi bi-linkedin"></i> Linkedin</li>
-                </a>
-                <a href="https://github.com/jcolliaan/jcolliaPublic/">
-                    <li><i class="bi bi-github"></i> Github</li>
-                </a>               
-            </ul>
-
-            <a href="https://drive.google.com/file/d/1djhkVjM0_mmFz1BevLjO9sCOSmYWvoBa/view?usp=sharing">
-                <button>Descargar CV</button>
-            </a>
-
-            <h3>EXPERIENCIA LABORAL</h3>
-            <h3>Hiberus| SFCC Developer <i class="bi bi-info-circle"></i></h3>
-            <p>Octubre 2022 - Abril 2023</p>
-            <p>Creación de desarrollos para ÓpticaUniversitaria</p>
-            <p>Configuración BM</p>
-            <h3>Capgemini | SFCC Developer <i class="bi bi-info-circle"></i></h3>
-            <p>Enero 2021 - Octubre 2022</p>
-            <p>Creación de desarrollos fullstack para Tienda Animal y Loreal</p>
-            <p>Configuración BM</p>
-            <p>UATs y mantenimiento en Mascotas Latinas</p>
-            <p>Soporte al cliente en BM para Ahorramás</p>
-            <h3>Capgemini | Java Developer <i class="bi bi-info-circle"></i></h3>
-            <p>Julio 2020 - Enero 2021</p>
-            <p>Desarrollo de nuevas funcionalidades para el Ministerio de Sanidad</p>
-            <p>Mantenimiento y corrección de bugs</p>
-            <p>Consulta de bases de datos SQL</p>
-            <h3>Ayto. de Oviedo | Frontend Developer <i class="bi bi-info-circle"></i></h3>
-            <p>Diciembre 2016 - Diciembre 2017</p>
-            <p>Maquetación y desarrollo de páginas web</p>
-            <p>Creación de recursos gráficos</p>
-        </div>
+    <div class="container"> 
 
         <div id="barraLateral">
             <div id="barraInterior">
@@ -85,6 +46,66 @@
                 <p>Español e Inglés</p>
             </div>
         </div>
+        
+        <div id="datosContacto">     
+            <h1>Jorge Collía Ancares</h1>
+            <ul id="lista-contacto">             
+                <li><i class="bi bi-pin-map-fill"></i> Oviedo</li>
+                <li><i class="bi bi-envelope"></i> jorgecollia91@gmail.com</li>
+                <li><i class="bi bi-telephone-fill"></i> 678 859 974</li> 
+                <li><i class="bi bi-car-front-fill"></i> Carnet de conducir y vehículo propio</li>
+                <a href="https://www.linkedin.com/in/jorge-coll%C3%ADa-ancares-8771501a2/">
+                    <li><i class="bi bi-linkedin"></i> Linkedin</li>
+                </a>
+                <a href="https://github.com/jcolliaan/jcolliaPublic/">
+                    <li><i class="bi bi-github"></i> Github</li>
+                </a>               
+            </ul>
+
+            <a href="https://drive.google.com/file/d/1djhkVjM0_mmFz1BevLjO9sCOSmYWvoBa/view?usp=sharing">
+                <button class="btn btn-secondary">Descargar CV</button>
+            </a>
+
+            
+        </div>
+
+        <div id="experiencia-laboral">
+            <h3>EXPERIENCIA LABORAL</h3>
+            <h3 id="hiberus">Hiberus| SFCC Developer <i class="bi bi-info-circle"></i></h3>
+            <p>Octubre 2022 - Abril 2023</p>
+            <p>Creación de desarrollos para ÓpticaUniversitaria</p>
+            <p>Configuración BM</p>
+            <div id="hiberus-descripcion">
+                <h5>Proyecto:</h5>
+                <h6>Óptica Universitaria</h6>
+                <p>Creación de nuevo desarrollo de las promociones, desarrollo de venta únicamente en tiendas físicas, modificaciones en la PDP y PLP, modificaciones de los emails de confirmación de pedido y carrito abandonado, modificación de XMLs (catálogos, stores..), test Unitarios, page meta tag rules, Seo, revisión de Código e incidencias.</p>   
+            </div>
+            <h3 id="capgemini-sfcc">Capgemini | SFCC Developer <i class="bi bi-info-circle"></i></h3>
+            <p>Enero 2021 - Octubre 2022</p>
+            <p>Creación de desarrollos fullstack para Tienda Animal y Loreal</p>
+            <p>Configuración BM</p>
+            <p>UATs y mantenimiento en Mascotas Latinas</p>
+            <p>Soporte al cliente en BM para Ahorramás</p>
+            <div id="capgemini-SFCC-descripcion">
+                <h5>Proyecto:</h5>
+                <h6>Óptica Universitaria</h6>
+                <p>Creación de nuevo desarrollo de las promociones, desarrollo de venta únicamente en tiendas físicas, modificaciones en la PDP y PLP, modificaciones de los emails de confirmación de pedido y carrito abandonado, modificación de XMLs (catálogos, stores..), test Unitarios, page meta tag rules, Seo, revisión de Código e incidencias.</p>   
+            </div>
+            <h3 id="capgemini-java">Capgemini | Java Developer <i class="bi bi-info-circle"></i></h3>
+            <p>Julio 2020 - Enero 2021</p>
+            <p>Desarrollo de nuevas funcionalidades para el Ministerio de Sanidad</p>
+            <p>Mantenimiento y corrección de bugs</p>
+            <p>Consulta de bases de datos SQL</p>
+            <div id="capgemini-java-descripcion">
+                <h5>Proyecto:</h5>
+                <h6>Óptica Universitaria</h6>
+                <p>Creación de nuevo desarrollo de las promociones, desarrollo de venta únicamente en tiendas físicas, modificaciones en la PDP y PLP, modificaciones de los emails de confirmación de pedido y carrito abandonado, modificación de XMLs (catálogos, stores..), test Unitarios, page meta tag rules, Seo, revisión de Código e incidencias.</p>   
+            </div>
+            <h3>Ayto. de Oviedo | Frontend Developer <i class="bi bi-info-circle"></i></h3>
+            <p>Diciembre 2016 - Diciembre 2017</p>
+            <p>Maquetación y desarrollo de páginas web</p>
+            <p>Creación de recursos gráficos</p>
+        </div>
 
     </div>
 
@@ -94,39 +115,39 @@
         </div>
         
         <div id="iconos-lenguajes">
-            <ul id="lista-iconos"> 
-            <li id="sfcc">
-                <img src="imagenes/salesforce.png" class="iconos"/>
-                <p>Salesforce Commerce Cloud</p>
-            </li>
-            <li>
-                <img src="imagenes/js.png" class="iconos"/>
-                <p>JavaScript</p>
-            </li>
-            <li>
-                <img src="imagenes/html5.png" class="iconos"/>
-                <p>HTML 5</p>
-            </li>
-            <li>
-                <img src="imagenes/css.png" class="iconos"/>
-                <p>CSS 3</p>
-            </li>
-            <li>
-                <img src="imagenes/Node.png" class="iconos"/>
-                <p>Node.js</p>
-            </li>
-            <li>
-                <img src="imagenes/jquery.png" class="iconos"/>
-                <p>jQuery</p>
-            </li>
-            <li>
-                <img src="imagenes/React.png" class="iconos" style="width: 60px;"/>
-                <p>React</p>
-            </li>
-            <li>
-                <img src="imagenes/bootstrap.png" class="iconos"/>
-                <p>Bootstrap</p>
-            </li>
+            <ul id="lista-iconos" class="icon-list"> 
+                <li id="sfcc">
+                    <img src="imagenes/salesforce.png" class="iconos"/>
+                    <p>Salesforce Commerce Cloud</p>
+                </li>
+                <li>
+                    <img src="imagenes/js.png" class="iconos"/>
+                    <p>JavaScript</p>
+                </li>
+                <li>
+                    <img src="imagenes/html5.png" class="iconos"/>
+                    <p>HTML 5</p>
+                </li>
+                <li>
+                    <img src="imagenes/css.png" class="iconos"/>
+                    <p>CSS 3</p>
+                </li>
+                <li>
+                    <img src="imagenes/Node.png" class="iconos"/>
+                    <p>Node.js</p>
+                </li>
+                <li>
+                    <img src="imagenes/jquery.png" class="iconos"/>
+                    <p>jQuery</p>
+                </li>
+                <li>
+                    <img src="imagenes/React.png" class="iconos" style="width: 60px;"/>
+                    <p>React</p>
+                </li>
+                <li>
+                    <img src="imagenes/bootstrap.png" class="iconos"/>
+                    <p>Bootstrap</p>
+                </li>
             </ul>
         </div>
         <p><small>Actualizado en Agosto de 2023</small></p>

@@ -6,8 +6,8 @@
 
 #datosContacto{
     text-align: justify;
-    width: 50%;
-    background-color: azure;
+    width: 52%;
+    /* background-color: azure; */
 }
 
 
@@ -39,7 +39,7 @@ a{
     width: 80%;
     overflow: hidden; /* Para limpiar el float */
     margin: auto;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 #barraLateral{
@@ -57,8 +57,8 @@ a{
 
 #experiencia-laboral{
     margin-top: 20px;
-    width: 50%;
-    background-color: aliceblue;
+    width: 52%;
+    /* background-color: aliceblue; */
 }
 
 /* desplegables */
@@ -112,6 +112,13 @@ footer{
     padding: 0;
 }
 
+/* fechas */
+
+.fa-solid{
+    color: black;
+    font-size: 16px;
+}
+
 /* Estilo para cada elemento de la lista */
 .icon-list li {
     text-align: center; /* Alinear el contenido del li al centro */
@@ -134,6 +141,10 @@ footer{
     #lista-iconos{
         display: flex;
         flex-direction: column;
+    }
+
+    #experiencia-laboral{
+        width: 100%;
     }
     
 }

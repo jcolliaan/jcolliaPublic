@@ -10,6 +10,13 @@
     /* background-color: azure; */
 }
 
+h5{
+    font-size: 16px;
+ }
+
+h6{
+    font-size: 15px;
+ }
 
 /* foto */
 #foto {
@@ -61,18 +68,22 @@ a{
     /* background-color: aliceblue; */
 }
 
+.descripcion{
+    margin-left: 20px;
+}
+
 /* desplegables */
 
-#hiberus-descripcion{
+.descripcion-proyecto{
+    text-align: justify;
+    background-color: rgb(244 244 244);
+    margin-left: 30px;
     display: none;
+    font-size: 14px;
 }
 
-#capgemini-SFCC-descripcion{
-    display: none;
-}
-
-#capgemini-java-descripcion{
-    display: none;
+.parrafo-proyectos{
+    margin-left: 10px;
 }
 
 /* footer */

@@ -42,6 +42,10 @@ a{
     color: black;
 }
 
+.cv-boton{
+    text-decoration: none;margin-right: 10px;
+}
+
 .container {
     width: 80%;
     overflow: hidden; /* Para limpiar el float */

@@ -43,7 +43,8 @@ a{
 }
 
 .cv-boton{
-    text-decoration: none;margin-right: 10px;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 .container {
@@ -168,6 +169,10 @@ footer{
 
     #experiencia-laboral{
         width: 100%;
+    }
+
+    .cv-boton{   
+        margin-right: 0;
     }
     
 }

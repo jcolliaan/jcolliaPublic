@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             texto.style.display = 'none';
         }
+        let icono = document.getElementById('chevronIconHiberus');
+        rotarIcono(icono);
     });
 
     const capgeminiTitle = document.getElementById('capgemini-sfcc');
@@ -25,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             capgeminiSfccDesc.style.display = 'none';
         }
+        let icono = document.getElementById('chevronIconCapgemini');
+        rotarIcono(icono);
     });
 
     const capgeminiTitleJava = document.getElementById('capgemini-java');
@@ -39,6 +43,38 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             capgeminiJavaDesc.style.display = 'none';
         }
+        let icono = document.getElementById('chevronIconCapgeminiJava');
+        rotarIcono(icono);
     });
+
+    const viseoTitle = document.getElementById('viseo');
+    const viseoDesc = document.getElementById('viseo-descripcion');
+
+    viseoTitle.addEventListener('click', function() {
+        if (viseoDesc.style.display === ''){
+            viseoDesc.style.display = 'block';
+        }
+        else if (viseoDesc.style.display === 'none') {
+            viseoDesc.style.display = 'block';
+        } else {
+            viseoDesc.style.display = 'none';
+        }
+        let icono = document.getElementById('chevronIconViseo');
+        rotarIcono(icono);
+    });
+
+    function rotarIcono(icono) {
+        // let icono = document.getElementById('chevronIcon');
+        let transformValue = icono.style.transform;
+
+        // Verificar si el icono está rotado
+        if (transformValue === 'rotate(180deg)') {
+            // Si está rotado, regresar a la posición original
+            icono.style.transform = "rotate(0deg)";
+        } else {
+            // Si no está rotado, rotar 180 grados
+            icono.style.transform = "rotate(180deg)";
+        }
+    }
 
   });
